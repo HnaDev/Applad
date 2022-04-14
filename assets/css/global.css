@@ -1,0 +1,44 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+.d-flex{
+    display: flex;
+}
+ul.list-featured-post li:hover a,
+ul.list-post li a {
+    text-decoration: none;
+}
+.pb-46{
+    padding-bottom: 46px;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+ p::selection, span::selection{
+    background-color: aqua;  /*hoạt động khi bôi đen */
+}
+.text-center{
+    text-align: center;
+}
+.mt-50{
+    margin-top: 50px;
+}
+.bpt{
+    border-bottom: 1px solid #eeebeb;
+}
+.mt-100{
+    margin-top: 100px;
+}
+.mb-0{
+    margin-bottom: 0;
+}
